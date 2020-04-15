@@ -33,4 +33,4 @@ jobs:
     - name: Build
       run: |
         cd /home/runner/work/terraform-provider-hyperv/terraform-provider-hyperv
-        make build
+        go build -v .
